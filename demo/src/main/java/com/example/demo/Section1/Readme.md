@@ -1,7 +1,10 @@
 ### 제 1절 입력 데이터 검증 및 표현
 
 
-1. SQL 삽입(Improper Neutralization of Special Elements used in an SQL Command, SQL Injection) 
+##### doc1. SQL 삽입(Improper Neutralization of Special Elements used in an SQL Command, SQL Injection) 
+프로그램 입력 값에 대한 검증 누락 또는 부적절한 검증, 데이터의 잘못된 형식지정, 일관되지 않은 언어셋 사용 등으로 인해 발생되는 보안 약점
+
+
 
 2. 자원 삽입(Improper Control of Resource Identifiers, Resource Injection) 
 
