@@ -6,7 +6,10 @@
 
 
 
-2. 자원 삽입(Improper Control of Resource Identifiers, Resource Injection) 
+#### doc2. 자원 삽입(Improper Control of Resource Identifiers, Resource Injection) 
+외부 입력값을 검증하지 않고 시스템 자원(resource)에 대한 식별자로 사용하는 경우, 공격자는 입력값 조작을 통해 시스템 임의 접근 및 수정 가능 약점
+
+
 
 3. 크로스 사이트 스크립트(Improper Neutralization of Input During Web Page Generation, Cross-site Scripting) 
 
