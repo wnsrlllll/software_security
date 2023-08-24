@@ -5,12 +5,8 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.Properties;
 
-import java.net.*;
-import java.io.*;
-
 import org.springframework.boot.CommandLineRunner;
 
-import com.example.demo.DemoApplication;
 import com.example.demo.Util.SocketClient;
 
 
@@ -19,13 +15,11 @@ import com.example.demo.Util.SocketClient;
  * 자원 삽입(Improper Control of Resource Identifiers, Resource Injection) 
  * 
  * 외부 입력(Service)을 소켓 번호로 그대로 사용. 만일, 공격자가 Service No 값 으로 -2920 값 지정시, 기존 80 포트에서 구동되는 서비스와 충돌되어 에러 발생
- * @param 
  * 
  * @param props
  * config 등 설정 파일
  */
 public class doc2 implements CommandLineRunner{
-    
 
     /** 
     시스템 정보 직접 사용시, 유효성 검증
@@ -111,7 +105,6 @@ public class doc2 implements CommandLineRunner{
             e.printStackTrace();
         }
     }
-
 
 
         /*  Q. 자원 삽입

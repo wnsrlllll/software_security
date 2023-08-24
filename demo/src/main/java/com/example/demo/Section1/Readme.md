@@ -11,7 +11,10 @@
 
 
 
-3. 크로스 사이트 스크립트(Improper Neutralization of Input During Web Page Generation, Cross-site Scripting) 
+### 3. 크로스 사이트 스크립트(Improper Neutralization of Input During Web Page Generation, Cross-site Scripting) 
+웹 페지 악의적인 스크립트를 포함시켜 사용자 측에서 실행되게 유도하여 정보 유출 가능 약점
+
+
 
 4. 운영체제 명령어 삽입(Improper Neutralization of Special Elements Used in an OS Command, OS Command Injection) 
 
