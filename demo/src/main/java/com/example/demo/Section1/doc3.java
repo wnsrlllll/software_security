@@ -16,7 +16,6 @@ public class doc3  extends HttpServletRequestWrapper{
 
     public doc3(HttpServletRequest request) {
         super(request);
-
         // html 부분
     }
 
@@ -31,7 +30,7 @@ public class doc3  extends HttpServletRequestWrapper{
         return clean; 
     }
 
-        /*  Q. 자원 삽입
+        /*  Q. Cross-site Scripting
 
             * Sol.
             * 

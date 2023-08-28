@@ -4,19 +4,18 @@
 ##### doc1. SQL 삽입(Improper Neutralization of Special Elements used in an SQL Command, SQL Injection) 
 프로그램 입력 값에 대한 검증 누락 또는 부적절한 검증, 데이터의 잘못된 형식지정, 일관되지 않은 언어셋 사용 등으로 인해 발생되는 보안 약점
 
-
-
-#### doc2. 자원 삽입(Improper Control of Resource Identifiers, Resource Injection) 
+##### doc2. 자원 삽입(Improper Control of Resource Identifiers, Resource Injection) 
 외부 입력값을 검증하지 않고 시스템 자원(resource)에 대한 식별자로 사용하는 경우, 공격자는 입력값 조작을 통해 시스템 임의 접근 및 수정 가능 약점
 
+##### 3. 크로스 사이트 스크립트(Improper Neutralization of Input During Web Page Generation, Cross-site Scripting) 
+웹 페이지 악의적인 스크립트를 포함시켜 사용자 측에서 실행되게 유도하여 정보 유출 가능 약점
 
 
-### 3. 크로스 사이트 스크립트(Improper Neutralization of Input During Web Page Generation, Cross-site Scripting) 
-웹 페지 악의적인 스크립트를 포함시켜 사용자 측에서 실행되게 유도하여 정보 유출 가능 약점
+##### 4. 운영체제 명령어 삽입(Improper Neutralization of Special Elements Used in an OS Command, OS Command Injection) 
+적절한 검증절차를 거치지 않은 사용자 입력값이 운영체제 명령어의 일부 또는 전부로 구성되어 실행시, 의도치 않은 시스템 명령어가 실행되어 부적절한 권한 변경 및 시스템(동작 및 운영)에 악영향에 대한 약점
+(1). Request 에 조작된 커맨드 삽입
+(2). 공격자가 요청한 커맨드 명령어 실행
 
-
-
-4. 운영체제 명령어 삽입(Improper Neutralization of Special Elements Used in an OS Command, OS Command Injection) 
 
 5. 위험한 형식 파일 업로드(Unrestricted Upload of File with Dangerous Type) 
 

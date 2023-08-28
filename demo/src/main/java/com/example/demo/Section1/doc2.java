@@ -117,6 +117,5 @@ public class doc2 implements CommandLineRunner{
             * opinion.
             * 1. exec 실행시, 환경변수로 설정되어 있는 파일 위변조 방지
             * 2. 상수로 설정되어 있는 VO 파일 내 객체 추출하여 사용
-
         */
 }
