@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "version",
+    "type": "java.lang.String",
+    "description": "A description for 'version'"
+  },
+  {
+    "name": "dbms_properties",
+    "type": "java.lang.String",
+    "description": "A description for 'dbms_properties'"
+  },
+  {
+    "name": "dbms_passwd",
+    "type": "java.lang.String",
+    "description": "A description for 'dbms_passwd'"
+  }
+]}

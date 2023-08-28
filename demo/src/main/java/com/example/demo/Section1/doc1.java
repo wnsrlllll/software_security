@@ -12,6 +12,8 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -31,6 +33,9 @@ public class doc1 {
      */
     public void part1() throws IOException {
         try {
+
+            
+
             PreparedStatement stmt = null;
             Connection con = null;
 
