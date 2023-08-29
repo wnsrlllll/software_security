@@ -10,14 +10,14 @@
 ##### 3. 크로스 사이트 스크립트(Improper Neutralization of Input During Web Page Generation, Cross-site Scripting) 
 웹 페이지 악의적인 스크립트를 포함시켜 사용자 측에서 실행되게 유도하여 정보 유출 가능 약점
 
-
 ##### 4. 운영체제 명령어 삽입(Improper Neutralization of Special Elements Used in an OS Command, OS Command Injection) 
 적절한 검증절차를 거치지 않은 사용자 입력값이 운영체제 명령어의 일부 또는 전부로 구성되어 실행시, 의도치 않은 시스템 명령어가 실행되어 부적절한 권한 변경 및 시스템(동작 및 운영)에 악영향에 대한 약점
 (1). Request 에 조작된 커맨드 삽입
 (2). 공격자가 요청한 커맨드 명령어 실행
 
+##### 5. 위험한 형식 파일 업로드(Unrestricted Upload of File with Dangerous Type) 
+서버측, 실행 가능 스크립트 파일(asp, jsp, php 파일 등 .. )이 업로드 가능하고, 이 파일을 공격자가 웹을 통해 직접 실행시킬 수 있는 경우 스크립트 파일을 업로드 하고 내부 명령어를 실행하거나, 외부와 연결하여 시스템을 제어에 대한 약점
 
-5. 위험한 형식 파일 업로드(Unrestricted Upload of File with Dangerous Type) 
 
 6. 신뢰되지 않는 URL 주소로 자동 접속 연결(URL Redirection to Untrusted Site, Open Redirect) 
 

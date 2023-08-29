@@ -14,10 +14,9 @@ import java.util.Properties;
  */
 public class doc4  {
 
-
-     /**
-     * 동적쿼리 생성
-     */
+    /**
+     *  운영체제 명령어 삽입 
+    */
     private void part1(String fileName) {
         
         try {
