@@ -19,7 +19,10 @@
 서버측, 실행 가능 스크립트 파일(asp, jsp, php 파일 등 .. )이 업로드 가능하고, 이 파일을 공격자가 웹을 통해 직접 실행시킬 수 있는 경우 스크립트 파일을 업로드 하고 내부 명령어를 실행하거나, 외부와 연결하여 시스템을 제어에 대한 약점
 
 
-6. 신뢰되지 않는 URL 주소로 자동 접속 연결(URL Redirection to Untrusted Site, Open Redirect) 
+##### 6. 신뢰되지 않는 URL 주소로 자동 접속 연결(URL Redirection to Untrusted Site, Open Redirect) 
+
+
+
 
 7. XQuery 삽입(Failure to Sanitize Data within XQuery Expressions, XQuery injection) 
 
