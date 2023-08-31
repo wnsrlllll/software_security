@@ -18,15 +18,11 @@
 ##### 5. 위험한 형식 파일 업로드(Unrestricted Upload of File with Dangerous Type) 
 서버측, 실행 가능 스크립트 파일(asp, jsp, php 파일 등 .. )이 업로드 가능하고, 이 파일을 공격자가 웹을 통해 직접 실행시킬 수 있는 경우 스크립트 파일을 업로드 하고 내부 명령어를 실행하거나, 외부와 연결하여 시스템을 제어에 대한 약점
 
-
 ##### 6. 신뢰되지 않는 URL 주소로 자동 접속 연결(URL Redirection to Untrusted Site, Open Redirect) 
+사용자로부터 받는 입력 값을 외부사이트주소로 사용하여 자동으로 연결하는 서버 프로그램은 피싱 공격에 노출되는 취약점 보유, 일반적으로 클라이언트에서 전송된 URL 주소로 연결하기 때문에 안전하다고 생각할 수 있으나, 해당 폼의 요청을 변조함으로서 공격자는 사용자가 위험한 URL 로 접속할 수 있도록 공격 약점
 
 
-
-
-7. XQuery 삽입(Failure to Sanitize Data within XQuery Expressions, XQuery injection) 
-
-8. XPath 삽입(Failure to Sanitize Data within XPath Expressions, XPath injection)
+##### 8. XPath 삽입(Failure to Sanitize Data within XPath Expressions, XPath injection)
 
 9. LDAP 삽입(Improper Neutralization of Special Elements used in an LDAP Query, LDAP Injection) 
 
